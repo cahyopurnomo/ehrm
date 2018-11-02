@@ -1,2 +1,0 @@
-# ehrm
-Aplikasi Basic HRM 

@@ -39,10 +39,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |  $autoload['packages'] = array(APPPATH.'third_party', '/usr/local/shared');
 |
 */
-$autoload['packages'] = array(
-		realpath(APPPATH .'../bonfire'),	// Bonfire Core
-    APPPATH . 'third_party',          // App -specific 3rd-party libs.
-);
+$autoload['packages'] = array();
 
 /*
 | -------------------------------------------------------------------
@@ -61,8 +58,7 @@ $autoload['packages'] = array(
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('database');
-
+$autoload['libraries'] = array();
 
 /*
 | -------------------------------------------------------------------
@@ -76,6 +72,12 @@ $autoload['libraries'] = array('database');
 | Prototype:
 |
 |	$autoload['drivers'] = array('cache');
+|
+| You can also supply an alternative property name to be assigned in
+| the controller:
+|
+|	$autoload['drivers'] = array('cache' => 'cch');
+|
 */
 $autoload['drivers'] = array();
 
@@ -87,7 +89,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array('url', 'language');
+$autoload['helper'] = array();
 
 /*
 | -------------------------------------------------------------------
@@ -101,7 +103,7 @@ $autoload['helper'] = array('url', 'language');
 | config files.  Otherwise, leave it blank.
 |
 */
-$autoload['config'] = array('application');
+$autoload['config'] = array();
 
 /*
 | -------------------------------------------------------------------

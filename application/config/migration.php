@@ -2,10 +2,6 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*
- * This configuration file is for CI 3 Migrations, only. Bonfire migrations 
- * currently do not use the values in this file.
- */
-/*
 |--------------------------------------------------------------------------
 | Enable/Disable Migrations
 |--------------------------------------------------------------------------
